@@ -9,4 +9,7 @@ tasks:
 - id: 3
   title: Buy ice-cream
   description: Because is so yummy!
-total: 3
+- id: 4
+  title: ''
+  description: ''
+total: 4

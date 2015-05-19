@@ -1,0 +1,71 @@
+body{
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  width: 75%;
+  margin: 40px auto;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover{
+  color: indianred;
+  transition: 0.5s ease;
+}
+
+ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 5px;
+}
+
+footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  background-color: rgba(250, 235, 215,0.5);
+  text-align: center;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+  color: teal;
+  font-weight: bold;
+}
+
+.all-tasks {
+  background-color: rgba(250, 235, 215,0.5);
+  text-align: left;
+  width: 50%;
+  margin-left: 140px;
+}
+
+p {
+  color: teal;
+}
+
+input[type=text], textarea {
+  width: 200px;
+  padding: 0.1em;
+  height: 20px;
+  margin: 0.1em;
+  border-radius: 5px;
+}
+
+textarea {
+  border: 2px inset;
+}
