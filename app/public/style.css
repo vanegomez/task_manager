@@ -7,7 +7,7 @@ body{
 
 .container {
   width: 75%;
-  margin: 40px auto;
+  margin: 150px auto;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
 }
@@ -39,10 +39,25 @@ footer {
   width: 100%;
   background-color: rgba(250, 235, 215,0.5);
   text-align: center;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
-h1, h2, h3, h4 {
+header {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  background-color: rgba(250, 235, 215,0.5);
+  text-align: center;
+  font-weight: lighter;
+}
+
+h1{
+  color: indianred;
+  letter-spacing: .1px;
+}
+
+h2, h3, h4 {
   color: teal;
   font-weight: bold;
 }
@@ -50,8 +65,8 @@ h1, h2, h3, h4 {
 .all-tasks {
   background-color: rgba(250, 235, 215,0.5);
   text-align: left;
-  width: 50%;
-  margin-left: 140px;
+  width: 30%;
+  margin-left: 330px;
 }
 
 p {
@@ -68,4 +83,5 @@ input[type=text], textarea {
 
 textarea {
   border: 2px inset;
+  height: 40px;
 }
